@@ -113,7 +113,12 @@ namespace ConditionalOperator
                           int time = 20;
                           string result = (time < 18) ? "Good day." : "Good evening.";
                           Console.WriteLine (result);   //  Output : Good evening.
-                                
+                bool isTrue = true;
+                WriteLine(isTrue ? "MD SALIM HOSSAIN" : "MST SALINA BEGUM");
+                WriteLine("======================================== \n");
+                
+                bool isFalse = false;
+                WriteLine(isFalse ? "MD SALIM HOSSAIN" : "MST SALINA BEGUM");
             ReadLine();
         }
     }

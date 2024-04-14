@@ -30,7 +30,7 @@ namespace ObjectType
             */
 
             short shortNumber = -32768;
-            WriteLine(shortNumber);//-32768 থেকে ৩২৭৬৭ ভেরিয়েবল তার ভ্যালু নিতে পারে নিতে পারে।
+            WriteLine(shortNumber);//-32768 থেকে 32767 ভেরিয়েবল তার ভ্যালু নিতে পারে নিতে পারে।
 
 
             ushort uShortNumber = 32767 * 2;

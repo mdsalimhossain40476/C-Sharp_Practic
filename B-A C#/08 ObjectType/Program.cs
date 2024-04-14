@@ -41,7 +41,7 @@ namespace ObjectType
 
             ReadLine();
 
-            //  https://www.youtube.com/watch?v=eOXIfk3-XW4&list=PLYlD4nntLxW38NnMgeO_0NM2X_x-T_Jff
+           
         }
     }
 }

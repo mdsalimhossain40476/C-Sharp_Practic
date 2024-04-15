@@ -15,14 +15,14 @@ namespace Dynamic
             WriteLine(number1 + number2);   //  Outputs :      130
             WriteLine(number1 - number2);   //  Outputs :      70
             WriteLine(number1 * number2);   //  Outputs :      3000
-            WriteLine(number1 / number2);   //  Outputs :      3   //   কোনও মান double বা float এর মতো আসেনি। অর্থাৎ দশমিকের পরে কোনও সংখ্যা আসেনি(3.333333333333333)।
+            WriteLine(number1 / number2);   //  Outputs :      3   //   মান double বা float এর মতো আসেনি। অর্থাৎ দশমিকের পরে কোনও সংখ্যা আসেনি(3.333333333333333)।
             WriteLine(number1 % number2);   //  Outputs :      10
 
             dynamic number = "Salim";
             dynamic numberOne= 30;
            
-            WriteLine(number +" , "+ numberOne);
-            WriteLine(number + numberOne);
+            WriteLine(number +" , "+ numberOne);    //  Outputs :      Salim , 30
+            WriteLine(number + numberOne);          //  Outputs :      Salim30
             /*
               ডায়নামিক তখন ব্যবহার করব, যখন জানব এর টাইপ আসলে কী জিনিস? 
               কারণ সেটা যদি না জেনে আমি আমার মত করে কোড করে চলে গেলাম কম্পাইলার 

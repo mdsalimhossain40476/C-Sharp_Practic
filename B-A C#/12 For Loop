@@ -1,0 +1,41 @@
+For Loop Reverse
+Syntax
+
+type []   variable’s Reference Name  = { Length };
+              
+      for (int i= variable’sReferenceName.Length - 1; i>=0; i--)
+{
+            
+         Console.WriteLine(variable’sReferenceName[i]);
+            
+}
+
+=================================================================
+Target Length
+Syntax
+
+type []   variable’s Reference Name  = { Length };
+              
+      for (int i= variable’sReferenceName.Length - 1; i>=0; i--)
+{
+            
+         Console.WriteLine(variable’sReferenceName[i]);
+
+    if  (variable’sReferenceName[i]== Target Length )
+        {
+           Break;
+
+        }
+
+}
+
+for ( start point, condition, increment / decrement )
+0 = index number
+i = initial value
+int[] number = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, };
+//For Loop Reverse = for ( start point, condition, decrement )
+//for  (int i=number.Length - 1; i>= 0; i--)
+  for  (int i=number.Length - 1; i>= 0; i--)
+ {
+     Console.WriteLine(number[i]);
+ }
